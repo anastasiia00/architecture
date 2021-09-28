@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Open+Sans+Condensed:wght@300&family=Rubik+Mono+One&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    background-image: url('https://images.unsplash.com/photo-1456428609816-980929652309?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1332&q=80');
+    justify-content: center;
+    text-align: center;
+    padding: 90px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header_text {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 78px;
+    line-height: 50px;
+    color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    max-width: 1200px;
+}
+
+.Norwich_Cathedral_main {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 48px;
+    text-decoration:underline;
+    color: brown;
+    margin-bottom: 15px;
+}
+
+.secondary {
+    max-width: 550px;
+}
+
+.NaturalMuseum_main {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 44px;
+    text-decoration:underline;
+    color: brown;
+    margin-bottom: 15px;
+}
+
+.TajMahal_main {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 46px;
+    text-decoration:underline;
+    color: brown;
+    margin-bottom: 15px;
+}
+
+
+.photos_of {
+    display: flex;
+}
+
+.photo {
+    margin-right: 5px;
+}
+
+.footer {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.footertext {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 12px;
+}
+
+.link {
+    display:grid;
+    color: black;
+    text-decoration: none;
+    
+}
